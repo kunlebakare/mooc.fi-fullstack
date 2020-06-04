@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+server-->browser: {"message":"note created"}
+
+note over browser: 
+on click, browser runs js-code
+which sends form data to the server as json object
+and simply refreshes the page with the new notes
+without reloading it
